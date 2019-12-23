@@ -781,7 +781,7 @@ void saveSerGarmentFile(int curFrame)
 	unsigned int offset = 0;
 	for (int t = 0; t < conf.getClothNum(); t++)
 	{
-		string fileName = "D://Program//GPU_PBD_GARMENT_QT//data//walk//new-garment//garment-" + to_string(curFrame) + "-" + to_string(t + 1) + ".obj";
+		string fileName = ".//data//walk//new-garment//garment-" + to_string(curFrame) + "-" + to_string(t + 1) + ".obj";
 		
 		for (int i = patternOffset; i < patternOffset + conf.getPatternNum().at(t); i++)
 		{
@@ -986,14 +986,14 @@ void GPU_PBD_GARMENT_QT::setPause()
 	{
 		doPause = false;
 		QIcon icon;
-		icon.addFile("D:\\Program\\GPU_PBD_GARMENT_QT\\QtSource\\pause.png");
+		icon.addFile(".\\QtSource\\pause.png");
 		startBtn->setIcon(icon);
 		timeStep();
 	}
 	else
 	{
 		QIcon icon;
-		icon.addFile("D:\\Program\\GPU_PBD_GARMENT_QT\\QtSource\\start.png");
+		icon.addFile(".\\QtSource\\start.png");
 		startBtn->setIcon(icon);
 		doPause = true;
 		//timeStep();
@@ -1005,7 +1005,7 @@ void GPU_PBD_GARMENT_QT::startAnimation()
 {
 	doPause = false;
 	QIcon icon;
-	icon.addFile("D:\\Program\\GPU_PBD_GARMENT_QT\\QtSource\\pause.png");
+	icon.addFile(".\\QtSource\\pause.png");
 	startBtn->setIcon(icon);
 	timeStep();
 }
@@ -1013,7 +1013,7 @@ void GPU_PBD_GARMENT_QT::startAnimation()
 void GPU_PBD_GARMENT_QT::stopAnimation()
 {
 	QIcon icon;
-	icon.addFile("D:\\Program\\GPU_PBD_GARMENT_QT\\QtSource\\start.png");
+	icon.addFile(".\\QtSource\\start.png");
 	startBtn->setIcon(icon);
 	doPause = true;
 }
@@ -1034,7 +1034,7 @@ void GPU_PBD_GARMENT_QT::resetAnimation()
 	doPause = true;
 
 	QIcon icon;
-	icon.addFile("D:\\Program\\GPU_PBD_GARMENT_QT\\QtSource\\start.png");
+	icon.addFile(".\\QtSource\\start.png");
 	startBtn->setIcon(icon);
 
 	for (int i = 0; i < model.getParticles().size(); i++)
@@ -1099,7 +1099,7 @@ void GPU_PBD_GARMENT_QT::clearScene()
 	}
 
 	QIcon icon;
-	icon.addFile("D:\\Program\\GPU_PBD_GARMENT_QT\\QtSource\\start.png");
+	icon.addFile(".\\QtSource\\start.png");
 	doPause = true;
 	startBtn->setIcon(icon);
 	conf.setSwingAngle(0);
@@ -1164,7 +1164,7 @@ void GPU_PBD_GARMENT_QT::mouseMoveEvent(QMouseEvent* e)
 
 
 
-void GPU_PBD_GARMENT_QT::timeStep()
+void GPU_PBD_GARMENT_QT::timeStep()//²¥·Å¶¯»­
 {
 	while (!doPause)
 	{
