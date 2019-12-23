@@ -1,0 +1,5 @@
+int numPerContact = 640;
+m_restLength = (x2_0 - x1_0).norm() * 0.9;
+m_restLength = (x2_0 - x1_0).norm()*0.95;
+conf = conf.getConfiguration("D:\\Program\\GPU_PBD_Garment\\data\\walk\\dress-333-Female Walk-complex.configFile");
+m_gravity = Vector3r(0.0, -9.81, 0.0);

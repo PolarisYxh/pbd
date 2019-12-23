@@ -1,0 +1,54 @@
+﻿  Building Custom Rule G:/PositionBasedDynamics/PositionBasedDynamics-master/extern/freeglut/src/CMakeLists.txt
+  CMake does not need to re-run because G:/PositionBasedDynamics/PositionBasedDynamics-master/extern/freeglut/src/CMakeFiles/generate.stamp is up-to-date.
+  fg_callbacks.c
+G:\PositionBasedDynamics\PositionBasedDynamics-master\extern\freeglut\src\fg_callbacks.c(252): warning C4018: “<”: 有符号/无符号不匹配
+  fg_cursor.c
+  fg_display.c
+  fg_ext.c
+  fg_font.c
+  fg_font_data.c
+  fg_gamemode.c
+  fg_geometry.c
+  fg_gl2.c
+  fg_init.c
+  fg_input_devices.c
+  fg_joystick.c
+  fg_main.c
+  fg_menu.c
+  fg_misc.c
+  fg_overlay.c
+  fg_spaceball.c
+  fg_state.c
+  fg_stroke_mono_roman.c
+  fg_stroke_roman.c
+  正在生成代码...
+  正在编译...
+  fg_structure.c
+  fg_teapot.c
+G:\PositionBasedDynamics\PositionBasedDynamics-master\extern\freeglut\src\fg_teapot.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  fg_videoresize.c
+  fg_window.c
+  fg_cursor_mswin.c
+  fg_display_mswin.c
+  fg_ext_mswin.c
+  fg_gamemode_mswin.c
+  fg_init_mswin.c
+  fg_input_devices_mswin.c
+  fg_joystick_mswin.c
+  fg_main_mswin.c
+G:\PositionBasedDynamics\PositionBasedDynamics-master\extern\freeglut\src\mswin\fg_main_mswin.c(47): warning C4312: “类型转换”: 从“unsigned int”转换到更大的“pGetTouchInputInfo”
+G:\PositionBasedDynamics\PositionBasedDynamics-master\extern\freeglut\src\mswin\fg_main_mswin.c(48): warning C4312: “类型转换”: 从“unsigned int”转换到更大的“pCloseTouchInputHandle”
+G:\PositionBasedDynamics\PositionBasedDynamics-master\extern\freeglut\src\mswin\fg_main_mswin.c(480): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+G:\PositionBasedDynamics\PositionBasedDynamics-master\extern\freeglut\src\mswin\fg_main_mswin.c(1508): warning C4312: “类型转换”: 从“unsigned int”转换到更大的“pGetTouchInputInfo”
+  fg_menu_mswin.c
+  fg_spaceball_mswin.c
+  fg_state_mswin.c
+  fg_structure_mswin.c
+  fg_window_mswin.c
+G:\PositionBasedDynamics\PositionBasedDynamics-master\extern\freeglut\src\mswin\fg_window_mswin.c(85): warning C4312: “类型转换”: 从“unsigned int”转换到更大的“pRegisterTouchWindow”
+  fgSetupPixelFormat(): there is still some work to do here!
+G:\PositionBasedDynamics\PositionBasedDynamics-master\extern\freeglut\src\mswin\fg_window_mswin.c(730): warning C4312: “类型转换”: 从“unsigned int”转换到更大的“pRegisterTouchWindow”
+  xparsegeometry_repl.c
+  正在生成代码...
+    正在创建库 G:/PositionBasedDynamics/PositionBasedDynamics-master/lib/RelWithDebInfo/freeglut_rd.lib 和对象 G:/PositionBasedDynamics/PositionBasedDynamics-master/lib/RelWithDebInfo/freeglut_rd.exp
+  freeglut.vcxproj -> G:\PositionBasedDynamics\PositionBasedDynamics-master\bin\freeglut_rd.dll

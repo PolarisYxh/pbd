@@ -1,0 +1,442 @@
+Device0:"GeForce GTX 1080"
+CUDA驱动版本:                                   10.1
+CUDA运行时版本:                                 10.1
+设备计算能力:                                   6.0
+Total amount of Global Memory:                  0 bytes
+Number of SMs:                                  20
+Total amount of Constant Memory:                65536 bytes
+Total amount of Shared Memory per block:        49152 bytes
+Total number of registers available per block:  65536
+Warp size:                                      32
+Maximum number of threads per SM:               2048
+Maximum number of threads per block:            1024
+Maximum size of each dimension of a block:      1024 x 1024 x 64
+Maximum size of each dimension of a grid:       2147483647 x 65535 x 65535
+Maximum memory pitch:                           2147483647 bytes
+Texture alignmemt:                              32 bytes
+Clock rate:                                     1.81 GHz
+Memory Clock rate:                              5005 MHz
+Memory Bus Width:                               256-bit
+
+Number of triangles: 66
+Number of vertices: 52
+点数：52
+面索引数：198
+Number of triangles: 707
+Number of vertices: 388
+点数：388
+面索引数：2121
+Number of triangles: 62
+Number of vertices: 48
+点数：48
+面索引数：186
+Number of triangles: 778
+Number of vertices: 428
+点数：428
+面索引数：2334
+Number of triangles: 4524
+Number of vertices: 2334
+点数：2334
+面索引数：13572
+Number of triangles: 4534
+Number of vertices: 2340
+点数：2340
+面索引数：13602
+
+
+位置、速度更新: 0.0397 ms
+约束投影: 12.7139 ms
+-----bvhf更新: 12.9842 ms
+-------cuda test ready: 0.4903 ms
+-----CUDA碰撞test: 1.1865 ms
+----111----: 2.5854 ms
+----222----: 0.1405 ms
+----333----: 0.1157 ms
+----444----: 0.0247 ms
+-----CUDA碰撞callback: 0.7186 ms
+-------cuda test ready: 0.4467 ms
+-----CUDA碰撞test: 7.3809 ms
+----111----: 9.5326 ms
+----222----: 0.101 ms
+----333----: 0.183 ms
+----444----: 0.0352 ms
+-----CUDA碰撞callback: 1.6013 ms
+-------cuda test ready: 0.4681 ms
+-----CUDA碰撞test: 0.9596 ms
+----111----: 2.5983 ms
+----222----: 0.1104 ms
+----333----: 0.1063 ms
+----444----: 0.0173 ms
+-----CUDA碰撞callback: 0.6771 ms
+-------cuda test ready: 0.398 ms
+-----CUDA碰撞test: 9.0293 ms
+----111----: 17.1433 ms
+----222----: 0.1999 ms
+----333----: 0.6866 ms
+----444----: 0.3671 ms
+-----CUDA碰撞callback: 2.4437 ms
+-------cuda test ready: 0.3532 ms
+-----CUDA碰撞test: 23.1611 ms
+----111----: 4.0722 ms
+----222----: 0.0691 ms
+----333----: 0.1167 ms
+----444----: 0.0145 ms
+-----CUDA碰撞callback: 0.8884 ms
+-------cuda test ready: 0.3779 ms
+-----CUDA碰撞test: 36.9907 ms
+----111----: 19.0405 ms
+----222----: 0.8654 ms
+----333----: 1.3071 ms
+----444----: 0.4013 ms
+-----CUDA碰撞callback: 4.3207 ms
+-----碰撞: 199.215 ms
+-----生成约束: 0.9602 ms
+碰撞检测: 201.277 ms
+碰撞处理: 4.019 ms
+每帧总时长：: 220.91 ms
+====================总用时: 250.123 ms
+
+、、
+位置、速度更新: 0.0345 ms
+约束投影: 11.5316 ms
+-----bvhf更新: 13.2214 ms
+-------cuda test ready: 0.4578 ms
+-----CUDA碰撞test: 1.4018 ms
+----111----: 1.2359 ms
+-----CUDA碰撞callback: 0.6752 ms
+-------cuda test ready: 0.3895 ms
+-----CUDA碰撞test: 9.5545 ms
+----111----: 1.297 ms
+-----CUDA碰撞callback: 0.5602 ms
+-------cuda test ready: 0.448 ms
+-----CUDA碰撞test: 1.2702 ms
+----111----: 1.2036 ms
+-----CUDA碰撞callback: 0.6936 ms
+-------cuda test ready: 0.4372 ms
+-----CUDA碰撞test: 10.9564 ms
+----111----: 1.3053 ms
+-----CUDA碰撞callback: 0.7665 ms
+-------cuda test ready: 0.4329 ms
+-----CUDA碰撞test: 31.0071 ms
+----111----: 1.3353 ms
+-----CUDA碰撞callback: 0.677 ms
+-------cuda test ready: 0.459 ms
+-----CUDA碰撞test: 48.4677 ms
+----111----: 0.9816 ms
+-----CUDA碰撞callback: 1.3843 ms
+-----碰撞: 152.922 ms
+-----生成约束: 0.617 ms
+碰撞检测: 154.424 ms
+碰撞处理: 2.3559 ms
+每帧总时长：: 171.628 ms
+====================总用时: 200.425 ms
+
+位置、速度更新: 0.0203 ms
+约束投影: 10.9326 ms
+-----bvhf更新: 12.4239 ms
+-------cuda test ready: 0.4732 ms
+-----CUDA碰撞test: 0.9582 ms
+----111----: 1.129 ms
+-----CUDA碰撞callback: 0.6637 ms
+-------cuda test ready: 0.4127 ms
+-----CUDA碰撞test: 6.4299 ms
+----111----: 1.2595 ms
+-----CUDA碰撞callback: 0.5054 ms
+-------cuda test ready: 0.3844 ms
+-----CUDA碰撞test: 0.8461 ms
+----111----: 1.2122 ms
+-----CUDA碰撞callback: 0.7051 ms
+-------cuda test ready: 0.404 ms
+-----CUDA碰撞test: 7.7365 ms
+----111----: 1.3412 ms
+-----CUDA碰撞callback: 0.6434 ms
+-------cuda test ready: 0.412 ms
+-----CUDA碰撞test: 20.5397 ms
+----111----: 1.275 ms
+-----CUDA碰撞callback: 0.4813 ms
+-------cuda test ready: 0.4491 ms
+-----CUDA碰撞test: 32.4226 ms
+----111----: 0.9463 ms
+-----CUDA碰撞callback: 1.1452 ms
+-----碰撞: 117.349 ms
+-----生成约束: 0.9573 ms
+碰撞检测: 119.05 ms
+碰撞处理: 4.3854 ms
+每帧总时长：: 137.454 ms
+====================总用时: 167.132 ms
+
+
+//注释do while
+位置、速度更新: 0.0182 ms
+约束投影: 12.847 ms
+-----bvhf更新: 13.1743 ms
+-----CUDA碰撞test: 0.1799 ms
+-----CUDA碰撞test: 0.1607 ms
+-----CUDA碰撞test: 0.1318 ms
+-----CUDA碰撞test: 0.1619 ms
+-----CUDA碰撞test: 0.1548 ms
+-----CUDA碰撞test: 0.1985 ms
+-----碰撞: 28.7824 ms
+-----生成约束: 0.0009 ms
+碰撞检测: 30.3159 ms
+碰撞处理: 0.1527 ms
+每帧总时长：: 46.6221 ms
+====================总用时: 83.9553 ms
+
+//测试不同blockdim
+8
+位置、速度更新: 0.0205 ms
+约束投影: 15.629 ms
+-----bvhf更新: 13.3431 ms
+-----CUDA碰撞test: 0.8547 ms
+-----CUDA碰撞test: 5.1565 ms
+-----CUDA碰撞test: 0.7978 ms
+-----CUDA碰撞test: 6.0456 ms
+-----CUDA碰撞test: 17.331 ms
+-----CUDA碰撞test: 27.5674 ms
+-----碰撞: 102.604 ms
+-----生成约束: 2.3148 ms
+碰撞检测: 105.929 ms
+碰撞处理: 8.2187 ms
+每帧总时长：: 133.258 ms
+====================总用时: 164.678 ms
+32
+位置、速度更新: 0.0197 ms
+约束投影: 12.5475 ms
+-----bvhf更新: 12.1973 ms
+-----CUDA碰撞test: 0.861 ms
+-----CUDA碰撞test: 5.3457 ms
+-----CUDA碰撞test: 0.7724 ms
+-----CUDA碰撞test: 6.4573 ms
+-----CUDA碰撞test: 17.3175 ms
+-----CUDA碰撞test: 27.1397 ms
+-----碰撞: 106.008 ms
+-----生成约束: 1.1382 ms
+碰撞检测: 109.746 ms
+碰撞处理: 4.9246 ms
+每帧总时长：: 129.828 ms
+====================总用时: 161.282 ms
+128
+位置、速度更新: 0.0231 ms
+约束投影: 12.6893 ms
+-----bvhf更新: 15.0974 ms
+-----CUDA碰撞test: 0.8836 ms
+-----CUDA碰撞test: 5.5918 ms
+-----CUDA碰撞test: 0.757 ms
+-----CUDA碰撞test: 6.5165 ms
+-----CUDA碰撞test: 17.4484 ms
+-----CUDA碰撞test: 27.4923 ms
+-----碰撞: 109.734 ms
+-----生成约束: 1.0574 ms
+碰撞检测: 113.525 ms
+碰撞处理: 4.3152 ms
+每帧总时长：: 133.86 ms
+====================总用时: 167.58 ms
+512
+位置、速度更新: 0.0205 ms
+约束投影: 15.629 ms
+-----bvhf更新: 13.3431 ms
+-----CUDA碰撞test: 0.8547 ms
+-----CUDA碰撞test: 5.1565 ms
+-----CUDA碰撞test: 0.7978 ms
+-----CUDA碰撞test: 6.0456 ms
+-----CUDA碰撞test: 17.331 ms
+-----CUDA碰撞test: 27.5674 ms
+-----碰撞: 102.604 ms
+-----生成约束: 2.3148 ms
+碰撞检测: 105.929 ms
+碰撞处理: 8.2187 ms
+每帧总时长：: 133.258 ms
+====================总用时: 164.678 ms
+
+__global__ void traverseIterativeFourRoad(BVHOnFaces::Node* d_nodes, BoundingSphere* bs, BVHOnFaces::Node* d_bodyNodes, BoundingSphere* d_bodyBS, int N,
+	int* d_contact, int numPerContact, unsigned int* d_bodyLeafNode)
+{
+	int index = threadIdx.x + blockIdx.x * blockDim.x;
+	if (index < N )
+	{
+		int child = index % 4;
+		index = index / 4;
+		BoundingSphere bss = d_bodyBS[d_bodyLeafNode[index]];
+		float r = bss.m_r;
+		float* x = bss.m_x;
+
+		unsigned int stack[32];
+		unsigned int* stackPtr = stack;
+		*stackPtr++ = NULL;
+		unsigned int node;
+		switch (child)
+		{
+			case 0:
+				node = d_nodes[d_nodes[0].children[0]].children[0];
+				break;
+			case 1:
+				node = d_nodes[d_nodes[0].children[0]].children[1];
+				break;
+			case 2:
+				node = d_nodes[d_nodes[0].children[1]].children[0];
+				break;
+			case 3:
+				node = d_nodes[d_nodes[0].children[1]].children[1];
+				break;
+			default:
+				break;
+		}
+		__shared__ unsigned int startIndex[8];
+		unsigned int count = threadIdx.x / 4;
+		startIndex[count] = index * numPerContact;
+		unsigned int childL;
+		unsigned int childR;
+		bool overlapL;
+		bool overlapR;
+		bool isLeafL;
+		bool isLeafR;
+		bool traverseL;
+		bool traverseR;
+		do
+		{
+			childL = d_nodes[node].children[0];
+			childR = d_nodes[node].children[1];
+			overlapL = (checkOverlap(r, x, bs[childL].m_r, bs[childL].m_x));
+			overlapR = (checkOverlap(r, x, bs[childR].m_r, bs[childR].m_x));
+			isLeafL = isLeaf(d_nodes[childL]);
+			isLeafR = isLeaf(d_nodes[childR]);
+			traverseL = (overlapL && !isLeafL);
+			traverseR = (overlapR && !isLeafR);
+
+			if (overlapL && isLeafL)
+			{
+				//先存的body , 后 clo
+				d_contact[startIndex[count]] = d_bodyLeafNode[index];
+				atomicAdd(&startIndex[count], 1);
+				d_contact[startIndex[count]] = childL;
+				atomicAdd(&startIndex[count], 1);
+			}
+			if (overlapR && isLeafR)
+			{
+				d_contact[startIndex[count]] = d_bodyLeafNode[index];
+				atomicAdd(&startIndex[count], 1);
+				d_contact[startIndex[count]] = childR;
+				atomicAdd(&startIndex[count], 1);
+			}
+
+			if (!traverseL && !traverseR)
+				node = *--stackPtr;
+			else
+			{
+				node = (traverseL) ? childL : childR;
+				if (traverseL && traverseR)
+					* stackPtr++ = childR;
+			}
+		} while (node != NULL);
+	}
+}
+
+
+位置、速度更新: 0.0195 ms
+约束投影: 11.196 ms
+-----bvhf更新: 12.7772 ms
+-------cuda test ready: 0.4863 ms
+-----CUDA碰撞test: 0.6802 ms
+----111----: 1.2334 ms
+----444----: 0.0272 ms
+-----CUDA碰撞callback: 0.5332 ms
+----555----: 0.532 ms
+-------cuda test ready: 0.437 ms
+-----CUDA碰撞test: 2.7088 ms
+----111----: 1.2841 ms
+----444----: 0.4628 ms
+-----CUDA碰撞callback: 0.5433 ms
+----555----: 1.9149 ms
+-------cuda test ready: 0.3913 ms
+-----CUDA碰撞test: 1.0248 ms
+----111----: 1.2323 ms
+----444----: 0.025 ms
+-----CUDA碰撞callback: 0.5356 ms
+----555----: 0.5278 ms
+-------cuda test ready: 0.4376 ms
+-----CUDA碰撞test: 3.2192 ms
+----111----: 1.2785 ms
+----444----: 0.4406 ms
+-----CUDA碰撞callback: 0.6229 ms
+----555----: 2.2884 ms
+-------cuda test ready: 0.442 ms
+-----CUDA碰撞test: 13.7257 ms
+----111----: 1.334 ms
+----444----: 0.4773 ms
+-----CUDA碰撞callback: 0.5153 ms
+----555----: 1.9626 ms
+-------cuda test ready: 0.4628 ms
+-----CUDA碰撞test: 17.4586 ms
+----111----: 1.2678 ms
+----444----: 0.5819 ms
+-----CUDA碰撞callback: 1.2055 ms
+----555----: 4.4446 ms
+-----生成约束: 2.1942 ms
+碰撞检测: 108.435 ms
+碰撞处理: 7.9498 ms
+每帧总时长：: 131.502 ms
+====================总用时: 169.329 ms
+
+__global__ void contactCallback(int* d_contactRes, int N, float* d_collisionInfo,
+	unsigned int* d_cloFacesIndex, Vector3r * d_cloVertices, unsigned int* d_bodyFacesIndex, Vector3r * d_bodyVertices,
+	unsigned int* d_cloList, unsigned int* d_bodyList, BVHOnFaces::Node * d_cloNodes, BVHOnFaces::Node * d_bodyNodes)
+{
+	int index = threadIdx.x + blockIdx.x * blockDim.x;
+	if (index < N)
+	{
+		float tolerance = 0.012;
+		int bodyIndex = d_contactRes[index * 2];
+		int cloIndex = d_contactRes[index * 2 + 1];
+
+		unsigned int cloFaceIndex = d_cloList[d_cloNodes[cloIndex].begin] * 3;
+		unsigned int bodyFaceIndex = d_bodyList[d_bodyNodes[bodyIndex].begin] * 3;
+		Vector3r bodyFace0 = d_bodyVertices[d_bodyFacesIndex[bodyFaceIndex]];
+		Vector3r bodyFace1 = d_bodyVertices[d_bodyFacesIndex[bodyFaceIndex + 1]];
+		Vector3r bodyFace2 = d_bodyVertices[d_bodyFacesIndex[bodyFaceIndex + 2]];
+
+		for (int i = 0; i < 3; i++)
+		{
+			Vector3r x_w = d_cloVertices[d_cloFacesIndex[cloFaceIndex + i]];
+
+			Vector3r n = (bodyFace1 - bodyFace0).cross(bodyFace2 - bodyFace0);
+			n = n.normalize();
+
+			Vector3r pa = x_w - bodyFace0 - n * tolerance;
+			Vector3r pb = x_w - bodyFace1 - n * tolerance;
+			Vector3r pc = x_w - bodyFace2 - n * tolerance;
+
+			for (int j = 0; j < 13; j++)
+				d_collisionInfo[index * 39 + i * 13 + j] = 0.0;
+			Vector3r cp_w;
+			bool coll = (pb.cross(pc).dot(n) > 0) && (pb.dot(n) < 0) && (pc.cross(pa).dot(n) > 0) && (pa.cross(pb).dot(n) > 0);
+			if (coll)
+			{
+				float t = (n.dot(bodyFace0) - n.dot(x_w)) / (n.dot(n));
+				cp_w = x_w + n * (tolerance + t);
+				Real dist = (x_w - cp_w).norm();
+				int startIndex = index * 39 + i * 13;
+				d_collisionInfo[startIndex + 0] = (cloIndex * 1.0f);
+				d_collisionInfo[startIndex + 1] = (bodyIndex * 1.0f);
+				d_collisionInfo[startIndex + 2] = (x_w[0]);
+				d_collisionInfo[startIndex + 3] = (x_w[1]);
+				d_collisionInfo[startIndex + 4] = (x_w[2]);
+				d_collisionInfo[startIndex + 5] = (cp_w[0]);
+				d_collisionInfo[startIndex + 6] = (cp_w[1]);
+				d_collisionInfo[startIndex + 7] = (cp_w[2]);
+				d_collisionInfo[startIndex + 8] = (n[0]);
+				d_collisionInfo[startIndex + 9] = (n[1]);
+				d_collisionInfo[startIndex + 10] = (n[2]);
+				d_collisionInfo[startIndex + 11] = (dist);
+				d_collisionInfo[startIndex + 12] = (i * 1.0f);
+			}
+		}
+	}
+}
+
+__global__ void contactCallbackOnParticles(int* d_contactRes, int N, float* d_collisionInfo,
+	unsigned int* d_clo1FacesIndex, Vector3r* d_clo1Vertices, unsigned int* d_clo2FacesIndex, Vector3r* d_clo2Vertices,
+	unsigned int* d_clo1List, unsigned int* d_clo2List, BVHOnFaces::Node* d_clo1Nodes, BVHOnFaces::Node* d_clo2Nodes)
+{
+
+

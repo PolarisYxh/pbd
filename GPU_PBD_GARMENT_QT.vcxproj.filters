@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{9ddfaa06-870b-4e53-9510-31e9bbe6e6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{86fd95cc-b500-4ea1-8bb6-28da068cd86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PositionBasedDynamics">
+      <UniqueIdentifier>{20f2dd94-967e-49e5-beec-f930f0a0e3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation">
+      <UniqueIdentifier>{16d45363-8d9f-4fba-a075-cd1421a7995a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{dcfa6a20-9746-4afe-9f52-c7a0af1d2d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visualization">
+      <UniqueIdentifier>{28d6035d-ef0c-403f-a1ad-0e9d12b86fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PositionBasedDynamics">
+      <UniqueIdentifier>{f244170c-ace1-4e2c-b457-6ce0e952e2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation">
+      <UniqueIdentifier>{4648b51e-5a77-48e5-a5e9-3b8b5b549469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{f223a4f1-4020-4573-8825-ddfe12744e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\GLSL">
+      <UniqueIdentifier>{62f40036-e39f-40f9-b731-999d9b5dab17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\conFigFile">
+      <UniqueIdentifier>{8385094a-d622-4f69-9f4c-60e773250958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU_PBD_GARMENT_QT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myOpenGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionBasedDynamics.cpp">
+      <Filter>Source Files\PositionBasedDynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionBasedRigidBodyDynamics.cpp">
+      <Filter>Source Files\PositionBasedDynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeIntegration.cpp">
+      <Filter>Source Files\PositionBasedDynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Constraint.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexedFaceMesh.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationModel.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeStepController.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleHierarchy.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleModel.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationLoader.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GPU_PBD_GARMENT_QT.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="myOpenGL.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="GPU_PBD_GARMENT_QT.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="GPU_PBD_GARMENT_QT.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\walk\dress-258-12816-Female Walk-9021.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\walk\dress-311-11796-Female Walk-9021.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\walk\dress-333-Female Walk-9021.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\walk\dress-333-Female Walk-complex.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\walk\dress-335-13294-Female Walk-9021.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\walk\dress-335-98440-Female Walk-9021.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\walk\plane-1681.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\walk\plane-1681-damping.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="BVHTree.inl">
+      <Filter>Source Files\Simulation</Filter>
+    </None>
+    <None Include="phong.frag">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="phong_body.frag">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="seam.frag">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="shadow.frag">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="phong.vert">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="phong_body.vert">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="seam.vert">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="shadow.vert">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="4.1.texture.frag">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="4.1.texture.vert">
+      <Filter>资源文件\GLSL</Filter>
+    </None>
+    <None Include="data\walk\dress-311-11796-Female Walk-9021-union.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\complex\dress-203-union-Female Walk-9021-union.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\complex\dress-203-14101-Female Walk-9021-union -.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\complex\dress-320-338-9660-Female Walk.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\complex\dress-338-Female Walk-9021.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\complex\dress-38-female-258-Female Walk.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\boy\boy.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\hook\hook.configFile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="experimentData\stretch\plane-9761.configFile">
+      <Filter>资源文件\conFigFile</Filter>
+    </None>
+    <None Include="experimentData\boy\boy.configFile">
+      <Filter>资源文件\conFigFile</Filter>
+    </None>
+    <None Include="experimentData\collision\collision.configFile">
+      <Filter>资源文件\conFigFile</Filter>
+    </None>
+    <None Include="experimentData\friction\friction.configFile">
+      <Filter>资源文件\conFigFile</Filter>
+    </None>
+    <None Include="experimentData\walk\dress-311-Female Walk-9021.configFile">
+      <Filter>资源文件\conFigFile</Filter>
+    </None>
+    <None Include="experimentData\bend\plane-1681.configFile">
+      <Filter>资源文件\conFigFile</Filter>
+    </None>
+    <None Include="experimentData\walk\dress-335-13294-Female Walk-9021.configFile">
+      <Filter>资源文件\conFigFile</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionBasedDynamics.h">
+      <Filter>Header Files\PositionBasedDynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionBasedRigidBodyDynamics.h">
+      <Filter>Header Files\PositionBasedDynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeIntegration.h">
+      <Filter>Header Files\PositionBasedDynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedBox3r.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="BVHTree.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Constraint.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceFieldCollisionDetection.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedFaceMesh.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleData.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationModel.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeStepController.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleHierarchy.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleModel.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationLoader.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMatrix.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectArray.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BMP_IO.h">
+      <Filter>Header Files\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="My_GLSL.h">
+      <Filter>Header Files\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="My_MATH.h">
+      <Filter>Header Files\Visualization</Filter>
+    </ClInclude>
+    <ClInclude Include="IDFactory.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="DistanceFieldCollisionDetection.cpp">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
