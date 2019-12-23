@@ -39,6 +39,8 @@ $(CUDA_PATH_V10_1)\lib\$(Platform);%(AdditionalLibraryDirectories)
 附加依赖项
 cudart.lib;lib\freeglut_rd.lib;opengl32.lib;glu32.lib;lib\AntTweakBar_rd.lib;lib\glew_rd.lib;glfw3.lib;%(AdditionalDependencies)
 
+运行时用experimentData\walk\dress-311-Female Walk-9021.configFile模型，各个模型包含的模型路径需要更改
+
 
 
 
