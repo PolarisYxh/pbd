@@ -1,23 +1,25 @@
-ÅäÖÃ
+é…ç½®
 win10+opengl+qt5.12.3+cuda10.2
-°üº¬Ä¿Â¼£º
+vs2019è§£å†³æ–¹æ¡ˆé…ç½®ï¼šrelease
+å¹³å°ï¼šx86
+åŒ…å«ç›®å½•ï¼š
 D:\Program\GPU_PBD_Garment\extern\glew\include\GL;D:\Program\GPU_PBD_Garment;D:\Program\GPU_PBD_Garment\extern\freeglut\include;D:\Program\GPU_PBD_Garment\extern;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\inc;$(IncludePath)
 
-¿âÄ¿Â¼
+åº“ç›®å½•
 D:\Program\GPU_PBD_Garment\lib;C:\Program Files %28x86%29\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64;$(LibraryPath)
 
 
 C/C++ :-----------------
 
-¸½¼ş°üº¬Ä¿Â¼
+é™„ä»¶åŒ…å«ç›®å½•
 D:\Program\GPU_PBD_Garment;%(AdditionalIncludeDirectories)
-³ÌĞòÊı¾İ¿â£¨/zi)
-µÈ¼¶1£¨/w1£©
-·ñ(/sdl-)
+ç¨‹åºæ•°æ®åº“ï¼ˆ/zi)
+ç­‰çº§1ï¼ˆ/w1ï¼‰
+å¦(/sdl-)
 
-ÓÅ»¯£º ×î´óÓÅ»¯(ÓÅÑ¡ËÙ¶È) (/O2)
+ä¼˜åŒ–ï¼š æœ€å¤§ä¼˜åŒ–(ä¼˜é€‰é€Ÿåº¦) (/O2)
 
-Ô¤´¦ÀíÆ÷¶¨Òå
+é¢„å¤„ç†å™¨å®šä¹‰
 WIN32
 _WINDOWS
 NDEBUG
@@ -27,14 +29,14 @@ TW_NO_LIB_PRAGMA
 TW_STATIC
 FREEGLUT_LIB_PRAGMAS=0
 
-´úÂëÉú³É
-¶àÏß³ÌDLL(/MD)
-ÆôÓÃ°²È«¼ì²é (/GS)
+ä»£ç ç”Ÿæˆ
+å¤šçº¿ç¨‹DLL(/MD)
+å¯ç”¨å®‰å…¨æ£€æŸ¥ (/GS)
 
-Á´½ÓÆ÷---------------------
-¸½¼Ó¿âÄ¿Â¼ 
+é“¾æ¥å™¨---------------------
+é™„åŠ åº“ç›®å½• 
 $(CUDA_PATH_V10_1)\lib\$(Platform);%(AdditionalLibraryDirectories)
-¸½¼ÓÒÀÀµÏî
+é™„åŠ ä¾èµ–é¡¹
 cudart.lib;lib\freeglut_rd.lib;opengl32.lib;glu32.lib;lib\AntTweakBar_rd.lib;lib\glew_rd.lib;glfw3.lib;%(AdditionalDependencies)
 
 
