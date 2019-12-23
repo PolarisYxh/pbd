@@ -1,5 +1,5 @@
 ÅäÖÃ
-
+win10+opengl+qt5.12.3+cuda10.2
 °üº¬Ä¿Â¼£º
 D:\Program\GPU_PBD_Garment\extern\glew\include\GL;D:\Program\GPU_PBD_Garment;D:\Program\GPU_PBD_Garment\extern\freeglut\include;D:\Program\GPU_PBD_Garment\extern;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\inc;$(IncludePath)
 
